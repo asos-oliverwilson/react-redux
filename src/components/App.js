@@ -5,7 +5,7 @@ class App extends React.Component {
     render() {
         return(
             <div className="contianer-fluid">
-                <Header></Header>
+                <Header/>
                 {this.props.children}
             </div>
         );
