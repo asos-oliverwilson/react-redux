@@ -9,7 +9,7 @@ class CoursesPage extends React.Component {
         super(props, context);
 
         this.state = {
-            course: { title: "null" }
+            course: { title: "new course" }
         };
 
         this.onTitleChange = this.onTitleChange.bind(this);
@@ -23,7 +23,7 @@ class CoursesPage extends React.Component {
     }
 
     onClickSave(){
-        this.props.actions.courseActions.createCourse(this.state.course);
+        this.props.actions.createCourse(this.state.course);
     }
 
     courseRow(course, index){
