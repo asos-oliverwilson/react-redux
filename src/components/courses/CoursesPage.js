@@ -71,7 +71,6 @@ function mapDispatchToProps(dispatch){
     }
 }
 */
-
 // Map all of the actions found in courseAction to a call to dispatch.
 function mapDispatchToProps(dispatch){
     return{
